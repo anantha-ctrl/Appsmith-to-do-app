@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "edit",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yb0we3hkdy",
+  "leftColumn": 48,
+  "minWidth": 50,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "onClick": "{{app.setSelected(currentItem);\nstoreValue('activeTab', \"EDIT\")}}",
+  "parentColumnSpace": 6.114694237709045,
+  "parentId": "05yaiy2g8k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 52,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9stik7xeap",
+  "widgetName": "IconButton1"
+}

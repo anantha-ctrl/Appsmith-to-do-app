@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6911ac8552f60b7cd8ab51d8_41e108c5-c86d-4799-89dd-af09b91741bb",
+  "id": "Page1_data",
+  "unpublishedCollection": {
+    "name": "data",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "todos",
+        "value": "[{\n  id: 1,\n  name: \"Welcome to my world\",\n  completed: false\n}, {\n  id: 2,\n  name: \"Today go to beach\",\n  completed: true\n}]"
+      }
+    ]
+  }
+}
